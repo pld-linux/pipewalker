@@ -9,6 +9,9 @@ Source0:	http://dl.sourceforge.net/pipewalker/%{name}-%{version}-src.tar.gz
 # Source0-md5:	d813ac1c3c53209c5b343f8b26d8117d
 Patch0:		%{name}-desktop.patch
 URL:		http://pipewalker.sourceforge.net/
+BuildRequires:	OpenGL-GLU-devel
+BuildRequires:	OpenGL-devel
+BuildRequires:	SDL-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
