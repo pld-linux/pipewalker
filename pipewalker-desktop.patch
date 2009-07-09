@@ -1,0 +1,19 @@
+--- pipewalker-0.6.1/extra/pipewalker.desktop~	2009-07-09 09:50:21.000000000 +0200
++++ pipewalker-0.6.1/extra/pipewalker.desktop	2009-07-09 09:50:21.000000000 +0200
+@@ -1,13 +1,11 @@
+ [Desktop Entry]
+-Version=1.0
+ Type=Application
+-Encoding=UTF-8
+ Name=PipeWalker
+ Comment=Connect all hosts to network!
++Comment[pl]=Połącz wszystkie komputery do sieci!
+ Comment[ru]=Объедините все компьютеры в сеть!
+ Comment[fr]=Connectez tous les ordinateurs au réseau!
+-TryExec=pipewalker
+ Exec=pipewalker
+ Categories=Game;LogicGame;
+-Icon=pipewalker.xpm
+-MimeType=
++Icon=pipewalker
++# vi: encoding=utf-8
