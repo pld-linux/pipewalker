@@ -1,12 +1,12 @@
 Summary:	Simple logic game
 Summary(pl.UTF-8):	Prosta gra logiczna
 Name:		pipewalker
-Version:	0.6.1
+Version:	0.7.2
 Release:	1
 License:	GPL v3+
 Group:		X11/Applications/Games
 Source0:	http://dl.sourceforge.net/pipewalker/%{name}-%{version}-src.tar.gz
-# Source0-md5:	d813ac1c3c53209c5b343f8b26d8117d
+# Source0-md5:	dd21add7c38f79c82e42135af83dda0c
 Patch0:		%{name}-desktop.patch
 URL:		http://pipewalker.sourceforge.net/
 BuildRequires:	OpenGL-GLU-devel
