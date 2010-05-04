@@ -1,15 +1,14 @@
 Summary:	Simple logic game
 Summary(pl.UTF-8):	Prosta gra logiczna
 Name:		pipewalker
-Version:	0.7.2
+Version:	0.8.1
 Release:	1
 License:	GPL v3+
 Group:		X11/Applications/Games
-Source0:	http://dl.sourceforge.net/pipewalker/%{name}-%{version}-src.tar.gz
-# Source0-md5:	dd21add7c38f79c82e42135af83dda0c
+Source0:	http://downloads.sourceforge.net/pipewalker/%{name}-%{version}-src.tar.gz
+# Source0-md5:	c0f92fe842ae8eeb436557fd39dd7146
 Patch0:		%{name}-desktop.patch
 URL:		http://pipewalker.sourceforge.net/
-BuildRequires:	OpenGL-GLU-devel
 BuildRequires:	OpenGL-devel
 BuildRequires:	SDL-devel
 BuildRequires:	autoconf
@@ -23,8 +22,8 @@ the same network. This game is clone of NetWalk.
 
 %description -l pl.UTF-8
 Prosta gra logiczna, w której elementy sieci komputerowej należy
-obracać w lewo/prawo w celu podłączenia wszystkich komputerów do
-tej samej sieci. Gra jest klonem gry NetWalk.
+obracać w lewo/prawo w celu podłączenia wszystkich komputerów do tej
+samej sieci. Gra jest klonem gry NetWalk.
 
 %prep
 %setup -q
